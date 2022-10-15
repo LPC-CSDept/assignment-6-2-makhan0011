@@ -25,6 +25,7 @@ using namespace std;
 // complete two functions
 double nthpowerp(int n)
 {
+        //find the nth power of result
     double result = 1;
         for(int i = 0; i < n; i++) {
                 result = result * 2;
@@ -33,6 +34,7 @@ double nthpowerp(int n)
 }
 double nthpowern(int n)
 {
+        // finding nth power of result
     double result = 1;
         for(int i = 0; i > n; i--) {
                 result = result/2;
@@ -41,5 +43,6 @@ double nthpowern(int n)
 }
 void printout(double result)
 {
+        // outputting results
     cout << "The result is " << setw(10) << fixed << setprecision(5) << result << endl;
 }
