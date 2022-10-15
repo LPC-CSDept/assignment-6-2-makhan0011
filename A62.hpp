@@ -38,6 +38,7 @@ double nthpowern(int n)
                 result = result/2;
         }
         return result;
+}
 void printout(double result)
 {
     cout << "The result is " << setw(10) << fixed << setprecision(5) << result << endl;
