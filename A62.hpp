@@ -1,4 +1,4 @@
-//
+/*//
 
 #include <iomanip>
 #include <iostream>
@@ -17,3 +17,5 @@ void printout(double result)
 {
         cout << "The result is " << setw(10) << fixed << setprecision(5) << result << endl;
 }
+*/
+
