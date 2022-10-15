@@ -27,7 +27,7 @@ double nthpowerp(int n)
 {
     double result = 1;
         for(int i = 0; i < n; i++) {
-                result = result * 2
+                result = result * 2;
         }
         return result;
 }
